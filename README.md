@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/G-RIMA/DevOps_project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/G-RIMA/DevOps_project4/tree/main)
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
----
+---jobs
 
 ## Setup the Environment
 
