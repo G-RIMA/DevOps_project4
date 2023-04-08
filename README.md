@@ -106,17 +106,17 @@ i the run bash upload_docker.sh and uploaded the image. I then took a screenshot
  I deleted the cluster and deleted the cloud 9 environment
  
  ### FILES
- .circleci - containd the circleci config.yml file that tests the project
- Dockerfile - file that runs the docker container
- Makefile - contains the dependencies needed to install and installs them by running
+ * .circleci - containd the circleci config.yml file that tests the project
+ * Dockerfile - file that runs the docker container
+ * Makefile - contains the dependencies needed to install and installs them by running
             make install
- app.py - contains the flask up and added a logging 
- Improve Logging and save output.jpg - image of the output provided after logging
- docker_out.txt - has the text shown by the output provided after improving logging
- hadolint- the installed handolint acctivated by running make lint
- resize.sh - helps to resize
- run_docker - runs docker by using bash run_docker.sh
- upload_docker.sh - uploads docker image when you run bash upload_docker.sh
- run_kubernetes.sh - deploys the kuberenetes and output is saved u run it by bash run_kubernetes
- kubernetes.txt - the output of deploying kubernetes is saved here
+ * app.py - contains the flask up and added a logging 
+ * Improve Logging and save output.jpg - image of the output provided after logging
+ * docker_out.txt - has the text shown by the output provided after improving logging
+ * hadolint- the installed handolint acctivated by running make lint
+ * resize.sh - helps to resize
+ * run_docker - runs docker by using bash run_docker.sh
+ * upload_docker.sh - uploads docker image when you run bash upload_docker.sh
+ * run_kubernetes.sh - deploys the kuberenetes and output is saved u run it by bash run_kubernetes
+ * kubernetes.txt - the output of deploying kubernetes is saved here
  
